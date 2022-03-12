@@ -395,7 +395,7 @@ Transform:
   m_GameObject: {fileID: 170869907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -0.4, z: 0}
-  m_LocalScale: {x: 2000, y: 1000, z: 1}
+  m_LocalScale: {x: 200, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -444,7 +444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835a7d74aec4b81479aadee5c165a386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRPM: 7125
   TorqueCurve: 3200000096000000c80000005e010000900100002c0100009600000064000000
   GearRatios:
   - 14
@@ -1724,7 +1723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &834525408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2932,7 +2931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1663201045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3240,7 +3239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1880325020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3376,7 +3375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835a7d74aec4b81479aadee5c165a386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRPM: 7125
   TorqueCurve: 3200000096000000c80000005e010000900100002c0100009600000064000000
   GearRatios:
   - 14
@@ -3630,7 +3628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835a7d74aec4b81479aadee5c165a386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRPM: 7125
   TorqueCurve: 3200000096000000c80000005e010000900100002c0100009600000064000000
   GearRatios:
   - 14
@@ -3801,7 +3798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &2127034623
 BoxCollider2D:
   m_ObjectHideFlags: 0
