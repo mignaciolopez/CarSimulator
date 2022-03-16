@@ -175,9 +175,9 @@ public class Car : MonoBehaviour {
 				EBrake = 1;
 			}
 
-			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+			if (Input.GetKeyDown (KeyCode.PageDown)) {
 				Engine.ShiftUp();
-			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			} else if (Input.GetKeyDown (KeyCode.PageUp)) {
 				Engine.ShiftDown();
 			}
 
