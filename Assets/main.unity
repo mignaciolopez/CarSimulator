@@ -395,7 +395,7 @@ Transform:
   m_GameObject: {fileID: 170869907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -0.4, z: 0}
-  m_LocalScale: {x: 200, y: 100, z: 1}
+  m_LocalScale: {x: 20000, y: 10000, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1723,7 +1723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &834525408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2931,7 +2931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1663201045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3239,7 +3239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1880325020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3798,7 +3798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2127034623
 BoxCollider2D:
   m_ObjectHideFlags: 0
