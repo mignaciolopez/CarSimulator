@@ -20,11 +20,13 @@ public class Engine : MonoBehaviour {
 	}
 
 	public void ShiftUp() {
-		CurrentGear++;
+		if (CurrentGear < GearRatios.Length)
+			CurrentGear++;
 	}
 
 	public void ShiftDown() {
-		CurrentGear--;
+		if (CurrentGear > 0)
+			CurrentGear--;
 	}
 
 	public float GetTorque(Rigidbody2D rb) {
@@ -61,7 +63,7 @@ public class Engine : MonoBehaviour {
 		float rpm = GetRPM (rb);
 
 		if (rpm > 6200) {
-			if (CurrentGear < 5)
+			if (CurrentGear < GearRatios.Length)
 				CurrentGear++;
 		} else if (rpm < 2000) {
 			if (CurrentGear > 0)
