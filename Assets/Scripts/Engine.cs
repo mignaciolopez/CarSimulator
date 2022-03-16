@@ -20,7 +20,7 @@ public class Engine : MonoBehaviour {
 	}
 
 	public void ShiftUp() {
-		if (CurrentGear < GearRatios.Length)
+		if (CurrentGear < GearRatios.Length - 1)
 			CurrentGear++;
 	}
 
@@ -63,7 +63,7 @@ public class Engine : MonoBehaviour {
 		float rpm = GetRPM (rb);
 
 		if (rpm > 6200) {
-			if (CurrentGear < GearRatios.Length)
+			if (CurrentGear < GearRatios.Length - 1)
 				CurrentGear++;
 		} else if (rpm < 2000) {
 			if (CurrentGear > 0)
